@@ -31,5 +31,7 @@ $(document).ready(function () {
     event.preventDefault();
     const number = beepBoop(parseInt($("#numb").val()));
     document.getElementById("result").innerHTML = number
+    $("#rogersimg").show();
+    $("#result").show();
   });
 });
