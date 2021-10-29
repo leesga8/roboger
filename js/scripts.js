@@ -5,29 +5,31 @@
 //replace all numbers that include number 1 with "Beep!"
 //...
 
-function beepBoop(number){
+function beepBoop(number) {
   let array = []
-  for(i=0;i<=number;i++){
-    if(i.toString().includes("3")){
-      array.push("Won\'t you be my neighbor?")
-    } else if(i.toString().includes("2")){
-      array.push("Boop!")
+  if (number < 0) {
+    array.push("Please enter a number starting from 0.")
+  }
+  for (i = 0; i <= number; i++) {
+    if (i.toString().includes("3")) {
+      array.push(" Won\'t you be my neighbor?")
+    } else if (i.toString().includes("2")) {
+      array.push(" Boop!")
     } else if (
-      i.toString().includes("1")){
-        array.push("Beep!")
+      i.toString().includes("1")) {
+      array.push(" Beep!")
     } else {
-    array.push(i)
+      array.push(" " + i)
     }
   }
   return array;
 }
-
 // UI Logic
 
-$(document).ready(function(){
-  $("#formOne").submit(function(event){
+$(document).ready(function () {
+  $("#formOne").submit(function (event) {
     event.preventDefault();
     const number = beepBoop(parseInt($("#numb").val()));
-    document.getElementById("result").innerHTML = number 
+    document.getElementById("result").innerHTML = number
   });
 });

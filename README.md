@@ -1,6 +1,6 @@
 # _Mr. Roboger_
 
-#### _It's a lovely day in the neighborhood._
+#### _It's a beautiful day in the neighborhood._
 
 #### By _**Albert Lee**_
 ## Technologies Used
@@ -81,3 +81,8 @@ Expected Output: 0, 'Beep!', 'Boop!', 'Won't you be my neighbor?'
 Test: "It should find any number that includes the number 3 and replace with 'Won't you be my neighbor?'"
 Code: beepBoop(13);
 Expected Output: 0, 'Beep!, "Boop!', 'Won't you be my neighbor?', 4, 5, 6, 7, 8, 9, 'Beep!', 'Beep!', 'Boop!', 'Won't you be my neighbor?'
+
+
+Test: "It should display 'Please enter a number starting from 0.' if a negative number is entered"
+Code: beepBoop(-1);
+Expected Output: "Please enter a number starting from 0."

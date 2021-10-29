@@ -1,0 +1,21 @@
+body {
+  background-image: url("/img/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  padding: auto;
+  margin: auto;
+}
+
+.container {
+  height:60%;
+  padding-top: auto;
+}
+.form-group{
+  background-color:aliceblue; 
+}
+
+#result{
+  background-color: aliceblue;
+}
