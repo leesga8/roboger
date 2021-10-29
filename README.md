@@ -64,3 +64,11 @@ Expected Output: 0, 1, 2, 3, 4
 Test: "It should find any number that includes the number 1 and replace with 'Beep!'"
 Code: beepBoop(11);
 Expected Output: 0, 'Beep!, 2, 3, 4, 5, 6, 7, 8, 9, 'Beep!', 'Beep!' 
+
+Test: "It should return 'Boop' for the number 2"
+Code: beepBoop(2);
+Expected Output: 0, 'Beep!', 'Boop!'
+
+Test: "It should find any number that includes the number 2 and replace with 'Boop!'"
+Code: beepBoop(12);
+Expected Output: 0, 'Beep!, "Boop!', 3, 4, 5, 6, 7, 8, 9, 'Beep!', 'Beep!', 'Boop!'
