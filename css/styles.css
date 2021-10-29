@@ -1,3 +1,12 @@
+/* font-family: 'Abel', sans-serif;
+font-family: 'Cabin', sans-serif;
+font-family: 'Exo 2', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Rampart One', cursive;
+font-family: 'Zen Antique', serif; */
+
 body {
   background-image: url("/img/background.jpg");
   background-repeat: no-repeat;
@@ -6,10 +15,8 @@ body {
   background-size: cover;
   padding: auto;
   margin: auto;
-  /* font-family: 'Exo 2', sans-serif; */
-  /* font-family: 'Merriweather Sans', sans-serif; */
-  font-family: 'Zen Antique', serif;
-  font-size: 3em;
+  font-family: 'Cabin', sans-serif;
+  font-size: 5em;
 }
 
 .container {
@@ -17,11 +24,13 @@ body {
   padding-top: auto;
 }
 .form-group {
+  font-size: .5em;
   margin-top: 1em;
   background-color:aliceblue; 
   padding: 1em;
   border-radius: 1em;
   opacity: 0.9;
+  color:rgb(245, 102, 55)
 }
 
 #result {
@@ -31,6 +40,10 @@ body {
   padding: 0.5em;
   opacity: 0.8;
   border-radius: .4em;
+  font-family: 'Merriweather Sans', sans-serif;
+  color:rgb(255, 64, 0);
+  font-size: .5em;
+  margin-bottom: 2em;
 }
 
 .banner {
@@ -39,6 +52,7 @@ body {
   height: 2em;
   padding: auto;
   margin: auto;
+  margin-bottom: 1.5em;
 }
 #bannerimg {
   display: block; 
@@ -55,7 +69,7 @@ justify-content: center;
   display: block;
   display: none;
   border-radius: 50%; 
-  height: 7em;
+  height: 4.5em;
   padding: auto;
   margin: auto;
 }
