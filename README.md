@@ -31,12 +31,13 @@ _No known issues_
 
 ## License
 
-_MIT Copyright (c) 2021, Albert Lee_
-https://opensource.org/licenses/MIT
+_[MIT](https://opensource.org/licenses/MIT) Copyright (c) 2021, Albert Lee_
+
 
 ## Contact Information
 
-_Albert Lee leesga8@gmail.com_
+_Albert Lee_
+_Email: leesga8@gmail.com_
 
 ## Specs
 
@@ -54,8 +55,8 @@ These exceptions are written from least to most important. The first exception s
 
 Describe: beepBoop(value)
 
-Test: "It should return an array with a 0 if the number 0 is inputted"
-Code: beepBoop(0);
+Test: "It should return an array with a 0 if the number 0 is inputted"\
+Code: beepBoop(0);\
 Expected Output: 0
 
 Test: "It should return an array with a range of 0 to 4 if the number 4 is inputted"
