@@ -6,16 +6,29 @@ body {
   background-size: cover;
   padding: auto;
   margin: auto;
+  /* font-family: 'Exo 2', sans-serif; */
+  /* font-family: 'Merriweather Sans', sans-serif; */
+  font-family: 'Zen Antique', serif;
+  font-size: 3em;
 }
 
 .container {
   height:60%;
   padding-top: auto;
 }
-.form-group{
+.form-group {
   background-color:aliceblue; 
+  padding: 1em;
 }
 
-#result{
+#result {
+  text-align: center;
   background-color: aliceblue;
+  padding: 0.5em;
+  opacity: 0.8;
+  border-radius: .4em;
+}
+
+#top {
+  padding: 1em;
 }
