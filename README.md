@@ -46,6 +46,7 @@ Takes a number from the user and returns a range of numbers from 0 to the user i
 * _The number 13 should be replaced with "Won't you be my neighbor?"_
 * _The number 21 should be replaced with "Boop"._
 * _The number 32 should be replaced with "Won't you be my neighbor?"_
+
 These exceptions are written from least to most important. The first exception should apply unless the second exception does, and the same with the second and third.
 
 ## TDD
@@ -59,3 +60,7 @@ Expected Output: 0
 Test: "It should return an array with a range of 0 to 4 if the number 4 is inputted"
 Code: beepBoop(4);
 Expected Output: 0, 1, 2, 3, 4
+
+Test: "It should find any number that includes the number 1 and replace with 'Beep!'"
+Code: beepBoop(11);
+Expected Output: 0, 'Beep!, 2, 3, 4, 5, 6, 7, 8, 9, 'Beep!', 'Beep!' 

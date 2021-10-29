@@ -2,12 +2,15 @@
 // Business Logic
 
 
-1//return array with a range of 0 to number
-2//replace number wit "Boop!"
+//return array with range of 0 to number 
+//replace all numbers that include number 1 with "Beep!"
 
 function beepBoop(number){
   let array = []
   for(i=0;i<=number;i++){
+    if(i.toString().includes("1")){
+      array.push("Beep!")
+    } else
     array.push(i)
   }
 
