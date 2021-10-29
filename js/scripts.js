@@ -1,9 +1,9 @@
-
 // Business Logic
 
-
 //return array with range of 0 to number 
+//replace 1 with "Beep!"
 //replace all numbers that include number 1 with "Beep!"
+//...
 
 function beepBoop(number){
   let array = []
@@ -19,13 +19,15 @@ function beepBoop(number){
     array.push(i)
     }
   }
-
   return array;
 }
 
-
-
-
-
-
 // UI Logic
+
+$(document).ready(function(){
+  $("#formOne").submit(function(event){
+    event.preventDefault();
+    const number = beepBoop(parseInt($("#numb").val()));
+    document.getElementById("result").innerHTML = number 
+  });
+});

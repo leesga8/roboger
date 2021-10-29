@@ -31,8 +31,9 @@ _No known issues_
 
 ## License
 
-_{MIT Copyright (c) 2021, Albert Lee}_
+_MIT Copyright (c) 2021, Albert Lee_
 https://opensource.org/licenses/MIT
+
 ## Contact Information
 
 _Albert Lee leesga8@gmail.com_
