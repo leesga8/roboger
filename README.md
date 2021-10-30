@@ -19,7 +19,7 @@ _When a user enters a number, it will return an array._
 ## Setup/Installation Requirements
 
 * _Navigate to https://github.com/leesga8/roboger in your browser_
-* _Clone this repository to your desktop_
+* _Clone this repository to your desktop._ |git clone url|
 * _Navigate to the top level of the directory_
 * _Connect to your github repository_
 * _open index.html in your browser_
@@ -36,7 +36,7 @@ _[MIT](https://opensource.org/licenses/MIT) Copyright (c) 2021, Albert Lee_
 
 ## Contact Information
 
-_Albert Lee_
+_Albert Lee_\
 _Email: leesga8@gmail.com_
 
 ## Specs
@@ -59,31 +59,31 @@ Test: "It should return an array with a 0 if the number 0 is inputted"\
 Code: beepBoop(0);\
 Expected Output: 0
 
-Test: "It should return an array with a range of 0 to 4 if the number 4 is inputted"
-Code: beepBoop(4);
+Test: "It should return an array with a range of 0 to 4 if the number 4 is inputted"\
+Code: beepBoop(4);\
 Expected Output: 0, 1, 2, 3, 4
 
-Test: "It should find any number that includes the number 1 and replace with 'Beep!'"
-Code: beepBoop(11);
+Test: "It should find any number that includes the number 1 and replace with 'Beep!'"\
+Code: beepBoop(11);\
 Expected Output: 0, 'Beep!, 2, 3, 4, 5, 6, 7, 8, 9, 'Beep!', 'Beep!' 
 
-Test: "It should return 'Boop' for the number 2"
-Code: beepBoop(2);
+Test: "It should return 'Boop' for the number 2"\
+Code: beepBoop(2);\
 Expected Output: 0, 'Beep!', 'Boop!'
 
-Test: "It should find any number that includes the number 2 and replace with 'Boop!'"
-Code: beepBoop(12);
+Test: "It should find any number that includes the number 2 and replace with 'Boop!'"\
+Code: beepBoop(12);\
 Expected Output: 0, 'Beep!, "Boop!', 3, 4, 5, 6, 7, 8, 9, 'Beep!', 'Beep!', 'Boop!'
 
-Test: "It should return 'Won't you be my neighbor?' for the number 3"
-Code: beepBoop(3);
+Test: "It should return 'Won't you be my neighbor?' for the number 3"\
+Code: beepBoop(3);\
 Expected Output: 0, 'Beep!', 'Boop!', 'Won't you be my neighbor?'
 
-Test: "It should find any number that includes the number 3 and replace with 'Won't you be my neighbor?'"
-Code: beepBoop(13);
+Test: "It should find any number that includes the number 3 and replace with 'Won't you be my neighbor?'"\
+Code: beepBoop(13);\
 Expected Output: 0, 'Beep!, "Boop!', 'Won't you be my neighbor?', 4, 5, 6, 7, 8, 9, 'Beep!', 'Beep!', 'Boop!', 'Won't you be my neighbor?'
 
 
-Test: "It should display 'Please enter a number starting from 0.' if a negative number is entered"
-Code: beepBoop(-1);
+Test: "It should display 'Please enter a number starting from 0.' if a negative number is entered"\
+Code: beepBoop(-1);\
 Expected Output: "Please enter a number starting from 0."

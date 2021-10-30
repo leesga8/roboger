@@ -27,11 +27,19 @@ function beepBoop(number) {
 // UI Logic
 
 $(document).ready(function () {
-  $("#formOne").submit(function (event) {
+  $("#submit").click(function (event) {
     event.preventDefault();
     const number = beepBoop(parseInt($("#numb").val()));
     document.getElementById("result").innerHTML = number
-    $("#rogersimg").show();
+    $("#rogersimg").slideDown(1800);
+    $("#result").show();
+  });
+
+  $("#reverse").click(function (event) {
+    event.preventDefault();
+    const number = beepBoop(parseInt($("#numb").val()));
+    document.getElementById("result").innerHTML = number.reverse();
+    $("#rogersimg").slideDown(1800);
     $("#result").show();
   });
 });
