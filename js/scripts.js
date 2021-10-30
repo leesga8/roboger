@@ -39,7 +39,7 @@ $(document).ready(function () {
     event.preventDefault();
     const number = beepBoop(parseInt($("#numb").val()));
     document.getElementById("result").innerHTML = number.reverse();
-    $("#rogersimg").slideDown(1800);
+    $("#rogersimg").slideDown(1200);
     $("#result").show();
   });
 });

@@ -7,7 +7,7 @@ body {
   padding: auto;
   margin: auto;
   font-family: 'Cabin', sans-serif;
-  font-size: 5em;
+  font-size: 4em;
 }
 
 .container {
@@ -19,11 +19,22 @@ body {
   font-size: .5em;
   margin-top: 1em;
   background-color:aliceblue; 
-  padding: 1em;
+  padding: .5em;
   border-radius: 1em;
   opacity: 0.9;
   color:rgb(245, 102, 55)
 }
+
+#numb {
+  height:50px;
+  font-size: 1em;
+}
+.btn {
+  margin-right: .5em;
+  margin-top: .5em;
+  padding: 1em;
+}
+
 
 #result {
   display: none;
@@ -41,15 +52,15 @@ body {
 .banner {
   display: block;
   border-radius: 50%; 
-  height: 2em;
+  height: 1em;
   padding: auto;
-  margin: auto;
-  margin-bottom: 1.5em;
+  margin-bottom: 2.8em;
 }
 #bannerimg {
   display: block; 
   width: 100%;
   border-radius: 1em;
+  height: 3.5em;
 }
 
 .top-container {
@@ -61,7 +72,7 @@ justify-content: center;
   display: block;
   display: none;
   border-radius: 50%; 
-  height: 4.5em;
+  height: 5em;
   padding: auto;
   margin: auto;
   margin-top: .3em;
