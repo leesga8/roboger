@@ -14,7 +14,8 @@
 
 ## Description
 
-_When a user enters a number, it will return an array._
+_When a user enters a number, it will return an array._\
+_[View the project](https://leesga8.github.io/roboger/)_
 
 ## Setup/Installation Requirements
 
@@ -82,7 +83,6 @@ Expected Output: 0, 'Beep!', 'Boop!', 'Won't you be my neighbor?'
 Test: "It should find any number that includes the number 3 and replace with 'Won't you be my neighbor?'"\
 Code: beepBoop(13);\
 Expected Output: 0, 'Beep!, "Boop!', 'Won't you be my neighbor?', 4, 5, 6, 7, 8, 9, 'Beep!', 'Beep!', 'Boop!', 'Won't you be my neighbor?'
-
 
 Test: "It should display 'Please enter a number starting from 0.' if a negative number is entered"\
 Code: beepBoop(-1);\
